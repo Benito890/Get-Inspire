@@ -1,0 +1,26 @@
+{
+  "name": "paris-react-0321-project2-back-groupe2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/paris-react-0321-project2-back-groupe2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/paris-react-0321-project2-back-groupe2/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/paris-react-0321-project2-back-groupe2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mysql2": "^2.2.5"
+  }
+}

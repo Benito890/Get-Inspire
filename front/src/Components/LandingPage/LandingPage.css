@@ -1,0 +1,130 @@
+.LandingPage-container {
+  background-color: #f1f0f8;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Landing-Title {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.LandingPage-Top {
+  background-color: #3e4069;
+  height: 55vh;
+  width: 100vw;
+  color: #f0ffff;
+}
+
+.Top {
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+}
+
+.Bottom {
+  display: flex;
+  height: 40vh;
+}
+
+.LandingPage-Bottom {
+  display: flex;
+  height: 45vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.LandinPage-Bottom-Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  color: #3e4069;
+  width: 30vh;
+}
+
+.Bot-Img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bot {
+  height: 80px;
+  width: 80px;
+}
+
+.Bottom-2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Bottom-1 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bottom-Button {
+  height: 50px;
+  width: 300px;
+  color: #3e4069;
+  font-weight: bolder;
+  font-size: large;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.24);
+}
+
+.getinspire-logo {
+  background-color: #3e4069;
+}
+
+@media screen and (max-width: 1200px) {
+  .Bottom-2 {
+    padding-right: 30px;
+  }
+  .landing-h2 {
+    font-size: large;
+  }
+  .landinPage-Bottom-Section {
+    width: 45vh;
+  }
+  .LandingPage-Bottom {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Bottom-2-p {
+    display: none;
+  }
+  .Bottom-Button {
+    width: 150px;
+  }
+
+  .Bottom-1 {
+    display: none;
+  }
+
+  .Bottom {
+    justify-content: center;
+  }
+
+  .h2-title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .Bottom-2 {
+    width: 60vh;
+    margin: 0;
+    padding: 30px;
+  }
+}

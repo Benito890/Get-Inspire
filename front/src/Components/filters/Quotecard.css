@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.QuotecardContainer {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3e4069;
+  color: #f0ffff;
+  margin: 20px;
+  width: 20vw;
+  height: 180px;
+  border-radius: 5px;
+  box-shadow: 0 32px 32px -8px rgba(0, 0, 0, 0.4);
+}
+
+.quote {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  height: 80%;
+}
+
+.author {
+  margin-top: -10px;
+  height: 20%;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .QuotecardContainer {
+    width: 25vw;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .QuotecardContainer {
+    width: 35vw;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .QuotecardContainer {
+    width: 80vh;
+  }
+}
